@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Webpage with Links, Tables, and Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 20px;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    h2 {
+      color: #007bff;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 50%;
+      margin-bottom: 20px;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      text-align: left;
+    }
+
+    form {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="checkbox"] {
+      margin-top: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Webpage with Links, Tables, and Form</h1>
+
+  <h2 style="text-align: center;">Hyperlinks</h2>
+  <ul>
+    <li><a href="https://www.example.com" style="color: #007bff; text-decoration: none;">Example Website</a></li>
+    <li><a href="https://www.google.com" style="color: #007bff; text-decoration: none;">Google</a></li>
+    <li><a href="https://www.github.com" style="color: #007bff; text-decoration: none;">GitHub</a></li>
+  </ul>
+
+  <h2 style="text-align: center;">Table</h2>
+  <table style="margin: 0 auto;">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Apples</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Bananas</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>Oranges</td>
+        <td>15</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 style="text-align: center;">Form</h2>
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" style="width: 100%;" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" style="width: 100%;" required>
+    <br>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="18" style="width: 100%;" required>
+    <br>
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" style="width: 100%;" required>
+      <option value="">Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+    <br>
+    <label for="subscribe">Subscribe to Newsletter:</label>
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <br>
+    <input type="submit" value="Submit" style="width: 100%;">
+  </form>
+
+</body>
+
+</html>

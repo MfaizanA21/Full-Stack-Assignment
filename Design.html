@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage Layout</title>
+  <style>
+    /* Resetting default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Container for the layout */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Header */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #666;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    /* Main Content */
+    .main-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .main-content .sidebar {
+      width: 30%;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+
+    .main-content .main-section {
+      width: 65%;
+      background-color: #fff;
+      padding: 20px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>Welcome to My Website</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h2>Sidebar</h2>
+        <p>Assignment.</p>
+      </div>
+
+      <!-- Main Section -->
+      <div class="main-section">
+        <h2>Main Section</h2>
+        <p>Full Stack Assignment.</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
